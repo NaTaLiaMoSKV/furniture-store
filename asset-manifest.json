@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/furniture-store/static/css/main.7acaea2f.css",
+    "main.js": "/furniture-store/static/js/main.07d3183d.js",
+    "index.html": "/furniture-store/index.html",
+    "main.7acaea2f.css.map": "/furniture-store/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/furniture-store/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
