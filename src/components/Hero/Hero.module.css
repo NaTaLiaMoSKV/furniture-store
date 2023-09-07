@@ -1,6 +1,6 @@
 .hero {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     background-color: #f2f2f2;
 }
 
@@ -98,23 +98,25 @@
 }
 
 .heroGalleryContainer {
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 }
 
 .gallery {
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-    width: auto;
-    height: 100%;
-    transition: transform 0.5s ease-in-out;
     width: 100%;
-    /* width: 400px; */
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+    position: relative;
+    transition: transform 500ms linear;
 }
 
 .galleryItem {
-    /* width: 320px; */
+    position: relative;
+    min-width: calc(100% - 40px);
     border: 1px solid #cbc9c9;
     background-color: #fff;
     border-radius: 10px;
@@ -122,7 +124,9 @@
 }
 
 .galleryImage {
-    max-height: 200px;
+    width: 100%;
+    height: auto;
+    max-height: 300px;
     border-radius: 5px;
 }
 
@@ -147,8 +151,6 @@
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
-
-    background-color: transparent;
     border: none;
 }
 
@@ -168,22 +170,27 @@
 
 .heroButtonsContainer {
     margin-top: 20px;
+    margin-left: 15px;
     display: flex;
 }
 
 .heroPrevButton,
 .heroNextButton {
     border: none;
-    background-color: transparent;
+    transition: opacity 150ms linear;
 }
 
-.heroPrevButton:hover .heroPrevIcon,
-.heroPrevButton:focus .heroPrevIcon {
+.heroPrevButton:disabled,
+.heroNextButton:disabled {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.heroPrevButton:hover .heroPrevIcon {
     background-color: #878787;
 }
 
-.heroNextButton:hover .heroNextIcon,
-.heroNextButton:focus .heroNextIcon {
+.heroNextButton:hover .heroNextIcon {
     background-color: #75a280;
 }
 
@@ -203,8 +210,8 @@
 .heroNextIcon {
     transform: rotate(45deg);
     background-color: #8bbb97;
-    
 }
+
 
 
 @media screen and (min-width: 768px) {
@@ -217,11 +224,12 @@
 
     .heroDescriptionContainer {
         max-width: 50%;
-        gap: 15px;
+        gap: 25px;
     }
 
     .heroTitle {
         line-height: 1.1;
+        letter-spacing: normal;
     }
 
     .heroShopLink {
@@ -241,18 +249,23 @@
         margin-top: 30px;
     }
 
+    .galleryImage {
+        max-height: 240px;
+    }
+
 }
 
 
 @media screen and (min-width: 1200px) {
 
     .heroContainer {
-        max-width: 1200px;
+        max-width: 1600px;
+        gap: 50px;
     }
     
     .heroDescriptionContainer {
-        min-width: 70%;
-        gap: 25px;
+        /* min-width: 70%; */
+        gap: 35px;
     }
 
     .awardText {
@@ -269,8 +282,8 @@
     }
 
     .heroTitle {
-        font-size: 47px;
-        width: 700px;
+        font-size: 50px;
+        line-height: 1.2;
     }
 
     .heroSubtitle {
@@ -280,5 +293,13 @@
     .heroShopLink {
         padding: 13px 20px;
         font-size: 18px;
+    }
+
+    .heroGalleryContainer {
+        width: 500px;
+    }
+
+    .galleryImage {
+        max-height: 300px;
     }
 }

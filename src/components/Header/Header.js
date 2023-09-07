@@ -2,31 +2,15 @@ import logoImage from '../../images/logo.png'
 import logoDot from '../../images/dot.png'
 import css from './Header.module.css'
 import sprite from '../../images/symbol-defs.svg'
-// import { useState } from 'react'
-
-// import MobileMenu from 'components/MobileMenu/MobileMenu';
 
 export default function Header({ onOpen }) {
-    // const [isMobileMenuOpened, setIsMobileMenuOpened] = useState(false);
 
-    // const onOpenMobileMenuClick = () => {
-    //     setIsMobileMenuOpened(true);
-    // }
-
-    // document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    //     anchor.addEventListener('click', function(e) {
-    //     e.preventDefault();
-
-    //     const targetId = this.getAttribute('href').substring(1);
-    //     const targetElement = document.getElementById(targetId);
-
-    //     if (targetElement) {
-    //         targetElement.scrollIntoView({
-    //         behavior: 'smooth'
-    //         });
-    //     }
-    //     });
-    // });
+    const scrollTo = (id) => {
+        const el = document.getElementById(id);
+        if (el) {
+            el.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
 
     return (
         <header>
@@ -38,12 +22,12 @@ export default function Header({ onOpen }) {
                         <img className={css.logoDotImage} src={logoDot} alt='logo'></img>
                     </a>
                     <ul className={css.navList}>
-                        <li className={css.navItem}><a className={css.navLink} href='#home'>Home</a></li>
-                        <li className={css.navItem}><a className={css.navLink} href='#about'>About</a></li>
-                        <li className={css.navItem}><a className={css.navLink} href='#shop'>Shop</a></li>
-                        <li className={css.navItem}><a className={css.navLink} href='#testimonial'>Testimonial</a></li>
-                        <li className={css.navItem}><a className={css.navLink} href='#blog'>Blog</a></li>
-                        <li className={css.navItem}><a className={css.navLink} href='#contact'>Contact Us</a></li>
+                        <li className={css.navItem}><a className={css.navLink} onClick={scrollTo('home')} href='#home'>Home</a></li>
+                        <li className={css.navItem}><a className={css.navLink} onClick={scrollTo('about')} href='#about'>About</a></li>
+                        <li className={css.navItem}><a className={css.navLink} onClick={scrollTo('shop')} href='#shop'>Shop</a></li>
+                        <li className={css.navItem}><a className={css.navLink} onClick={scrollTo('testimonial')} href='#testimonial'>Testimonial</a></li>
+                        <li className={css.navItem}><a className={css.navLink} onClick={scrollTo('blog')} href='#blog'>Blog</a></li>
+                        <li className={css.navItem}><a className={css.navLink} onClick={scrollTo('contact')} href='#contact'>Contact Us</a></li>
                     </ul>
                     <div className={css.supportContainer}>
                         <p className={css.supportText}>Support</p>

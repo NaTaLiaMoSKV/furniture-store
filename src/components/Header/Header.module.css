@@ -45,7 +45,6 @@ header {
 }
 
 .mobileMenuButton {
-    background-color: transparent;
     border: none;
 }
 
@@ -58,15 +57,6 @@ header {
 .mobileMenuIcon:focus {
     fill: #8BBB97;
 }
-
-
-/* @media screen and (min-width: 320px) and (max-width: 767px) {
-    
-    .navList,
-    .supportContainer {
-        display: none;
-    }
-} */
 
 
 @media screen and (min-width: 768px) {
@@ -95,14 +85,13 @@ header {
     }
 
     .navItem:hover,
-    .navItem:focus,
-    .navItem.active {
+    .navItem:focus {
         color: #8BBB97;
-        /* padding-bottom: 38px; */
         border-bottom: 3px solid #8BBB97;
     }
 
 }
+
 
 @media screen and (min-width: 1200px) {
     

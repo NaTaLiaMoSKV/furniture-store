@@ -1,0 +1,242 @@
+.category {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: #f2f2f2;
+}
+
+.categoryContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleText {
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+}
+.categories {
+    width: 100%;
+    display: block;
+}
+
+.smallCategories {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+
+.galleryDescriptionContainer {
+    width: calc(100% - 40px);
+    position: absolute;
+    bottom: 0;
+    margin-top: 15px;
+    padding: 15px 10px;
+    z-index: 20;
+}
+
+.galleryName {
+    color: #fafafa;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.galleryCount {
+    color: #fafafa;
+    letter-spacing: 0.02em;
+}
+
+.galleryButton {
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+    border: none;
+}
+
+.galleryIcon {
+    border-radius: 50%;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    
+    background-color: #e0dcdc;
+    transition: background-color 150ms linear;
+}
+
+.galleryButton:hover .galleryIcon,
+.galleryButton:focus .galleryIcon {
+    background-color: #fafafa;
+}
+
+.office,
+.bedroom,
+.livingRoom,
+.kitchen {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.office::after,
+.bedroom::after,
+.livingRoom::after,
+.kitchen::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+.office {
+    background-image: url('https://i.pinimg.com/564x/15/19/bd/1519bdd8ce1b89dba121fc3a9cbd8736.jpg');
+}
+
+.bedroom {
+    background-image: url('https://i.pinimg.com/564x/3d/0e/15/3d0e150a88c1b0417ae4936cd6c6db5b.jpg');
+}
+
+.livingRoom {
+    background-image: url('https://i.pinimg.com/564x/40/10/20/4010202a5cbc75d49bc3edbfef99e909.jpg');
+}
+
+.kitchen {
+    background-image: url('https://i.pinimg.com/564x/cc/87/4e/cc874e17c52480b681d255df47aec130.jpg');
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .smallCategories {
+        margin-bottom: 16px;
+    }
+
+    .office,
+    .bedroom,
+    .livingRoom,
+    .kitchen {
+        width: 100%;
+        height: 200px;
+    }
+
+    .galleryName {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .categories {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .smallCategories {
+        width: 340px;
+    }
+    
+    .titleText {
+        width: 480px;
+        font-size: 32px;
+    }
+
+    .office,
+    .bedroom {
+        width: 162px;
+        height: 162px;
+    }
+
+    .livingRoom {
+        width: 100%;
+        height: 162px;
+    }
+
+    .kitchen {
+        width: 340px;
+    }
+
+    .galleryName {
+        font-size: 17px;
+    }
+
+    .galleryCount {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .categories {
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .smallCategories {
+        width: 500px;
+    }
+
+    .office,
+    .bedroom {
+        width: 240px;
+        height: 200px;
+    }
+
+    .livingRoom {
+        width: 100%;
+        height: 200px;
+    }
+
+    .kitchen {
+        width: 500px;
+    }
+
+    .galleryName {
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
+    .galleryCount {
+        font-size: 15px;
+        letter-spacing: 0.03em;
+    }
+}
+
+
+@media screen and (min-width: 1920px) {
+
+    .categoryContainer {
+        max-width: 1600px;
+    }
+
+    .categories,
+    .smallCategories {
+        gap: 30px;
+        flex-wrap: nowrap;
+        width: auto;
+    }
+
+    .office,
+    .bedroom,
+    .livingRoom,
+    .kitchen {
+        width: 380px;
+        height: 340px;
+    }
+
+    .galleryName {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+}
