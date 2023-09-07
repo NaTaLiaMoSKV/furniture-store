@@ -1,0 +1,126 @@
+header {
+    width: 100%;
+    background-color: #282828;
+    height: 120px;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 120px;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logoImage {
+    margin-right: -10px;
+    width: 42px;
+}
+
+.logoDotImage {
+    width: 15px;
+    padding-top: 20px;
+}
+
+.logoText {
+    color: #fafafa;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1.15;
+}
+
+.logoSpan {
+    color: #8BBB97;
+}
+
+.navList,
+.supportContainer {
+    display: none;
+}
+
+.mobileMenuButton {
+    background-color: transparent;
+    border: none;
+}
+
+.mobileMenuIcon {
+    fill: #fafafa;
+    transition: fill 150ms linear;
+}
+
+.mobileMenuIcon:hover,
+.mobileMenuIcon:focus {
+    fill: #8BBB97;
+}
+
+
+/* @media screen and (min-width: 320px) and (max-width: 767px) {
+    
+    .navList,
+    .supportContainer {
+        display: none;
+    }
+} */
+
+
+@media screen and (min-width: 768px) {
+
+    .mobileMenuButton {
+        display: none;
+    }
+
+    .navList {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        gap: 30px;
+    }
+
+    .navItem {
+        color: #fafafa;
+        font-size: 18px;
+        font-weight: 600;
+        padding: auto 0;
+        border-bottom: 3px solid transparent;
+        transition: all 150ms linear;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .navItem:hover,
+    .navItem:focus,
+    .navItem.active {
+        color: #8BBB97;
+        /* padding-bottom: 38px; */
+        border-bottom: 3px solid #8BBB97;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .supportContainer {
+        display: flex;
+        gap: 15px;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 0.03em;
+        color: #fafafa;
+    }
+
+    .supportLink {
+        transition: color 150ms linear;
+    }
+
+    .supportLink:hover,
+    .supportLink:focus {
+        color: #8BBB97;
+    }
+}
