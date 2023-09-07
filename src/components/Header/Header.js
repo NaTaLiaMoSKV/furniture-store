@@ -1,7 +1,7 @@
 import logoImage from '../../images/logo.png'
 import logoDot from '../../images/dot.png'
-import css from './Header.module.css'
 import sprite from '../../images/symbol-defs.svg'
+import css from './Header.module.css'
 
 export default function Header({ onOpen }) {
 
@@ -13,7 +13,7 @@ export default function Header({ onOpen }) {
     };
 
     return (
-        <header>
+        <header id='header'>
             <section>
                 <div className={css.headerContainer}>
                     <a href="/furniture-store" className={css.logoContainer}>
@@ -33,7 +33,7 @@ export default function Header({ onOpen }) {
                         <p className={css.supportText}>Support</p>
                         <a className={css.supportLink} href='tel:4065550120'>(406) 555-0120</a>
                     </div>
-                    <button className={css.mobileMenuButton} type="button" onClick={onOpen}>
+                    <button className={css.mobileMenuButton} type="button" onClick={e => { onOpen(); scrollTo('header')}}>
                         <svg  width="32" height="32" className={css.mobileMenuIcon}>
                             <use href={sprite + '#icon-burger'}></use>
                         </svg>

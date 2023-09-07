@@ -1,0 +1,587 @@
+{
+  "chairs": [
+    {
+      "id": 1,
+      "name": "HUNDESTED linen chair",
+      "img": "https://cdn4.jysk.com/getimage/wd2.medium/201611",
+      "rating": 4.7,
+      "price": 550
+    },
+    {
+      "id": 2,
+      "name": "Chair KASTBJERG N-49",
+      "img": "https://kupistul.ua/public/upload/catalogGood/stul-n-49-beliy-23463139.jpg",
+      "rating": 4.5,
+      "price": 400
+    },
+    {
+      "id": 3,
+      "name": "Dining chair HYGUM",
+      "img": "https://cdn4.jysk.com/getimage/wd2.medium/185789",
+      "rating": 4.8,
+      "price": 750
+    },
+    {
+      "id": 4,
+      "name": "Dining chair KOKKEDAL",
+      "img": "https://cdn3.jysk.com/getimage/wd2.medium/182205",
+      "rating": 4.6,
+      "price": 620
+    },
+    {
+      "id": 5,
+      "name": "Lounge chair UBBERUP",
+      "img": "https://cdn4.jysk.com/getimage/wd2.medium/177209",
+      "rating": 4.9,
+      "price": 900
+    },
+    {
+      "id": 6,
+      "name": "Office chair KASTBJERG",
+      "img": "https://cdn3.jysk.com/getimage/wd2.medium/213370",
+      "rating": 4.7,
+      "price": 720
+    },
+    {
+      "id": 7,
+      "name": "Chair SIMESTED stripes",
+      "img": "https://cdn3.jysk.com/getimage/wd2.medium/212340",
+      "rating": 4.8,
+      "price": 820
+    },
+    {
+      "id": 8,
+      "name": "Office chair SKODSBORG",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/126722",
+      "rating": 4.6,
+      "price": 670
+    },
+    {
+      "id": 9,
+      "name": "Office chair REERSLEV",
+      "img": "https://cdn3.jysk.com/getimage/wd2.medium/185630",
+      "rating": 4.7,
+      "price": 580
+    }
+  ],
+  "tables": [
+    {
+      "id": 10,
+      "name": "Table TAPS",
+      "img": "https://cdn2.jysk.com/getimage/wd2.medium/59295",
+      "rating": 4.7,
+      "price": 1380
+    },
+    {
+      "id": 11,
+      "name": "Table TURUP",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/212314",
+      "rating": 4.9,
+      "price": 1450
+    },
+    {
+      "id": 12,
+      "name": "Table NYBO",
+      "img": "https://cdn3.jysk.com/getimage/wd2.medium/98401",
+      "rating": 4.9,
+      "price": 870
+    },
+    {
+      "id": 13,
+      "name": "Table VANDSTED",
+      "img": "https://cdn2.jysk.com/getimage/wd2.medium/185384",
+      "rating": 5.0,
+      "price": 1670
+    },
+    {
+      "id": 14,
+      "name": "Coffee Table GALTEN",
+      "img": "https://cdn3.jysk.com/getimage/wd2.medium/72305",
+      "rating": 4.8,
+      "price": 2000
+    },
+    {
+      "id": 15,
+      "name": "Coffee Table TEBSTRUP",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/161922",
+      "rating": 4.9,
+      "price": 1230
+    },
+    {
+      "id": 16,
+      "name": "Table DOKKEDAL",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/107749",
+      "rating": 4.9,
+      "price": 990
+    },
+    {
+      "id": 17,
+      "name": "Coffee Table LINTRUP",
+      "img": "https://cdn4.jysk.com/getimage/wd2.medium/212286",
+      "rating": 4.6,
+      "price": 2100
+    },
+    {
+      "id": 18,
+      "name": "Coffee Table LEJRE",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/59315",
+      "rating": 5.0,
+      "price": 1300
+    }
+  ],
+  "sofas": [
+    {
+      "id": 19,
+      "name": "Sofa EGENSE",
+      "img": "https://cdn2.jysk.com/getimage/wd2.medium/185326",
+      "rating": 4.7,
+      "price": 6380
+    },
+    {
+      "id": 20,
+      "name": "Sofa GISTRUP",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/161877",
+      "rating": 4.9,
+      "price": 7450
+    },
+    {
+      "id": 21,
+      "name": "Corner Sofa EGENSE",
+      "img": "https://cdn3.jysk.com/getimage/wd2.medium/108871",
+      "rating": 4.9,
+      "price": 9870
+    },
+    {
+      "id": 22,
+      "name": "Sofa SVELVIK",
+      "img": "https://cdn2.jysk.com/getimage/wd2.medium/108884",
+      "rating": 5.0,
+      "price": 8670
+    },
+    {
+      "id": 23,
+      "name": "Sofa GEDVED",
+      "img": "https://cdn4.jysk.com/getimage/wd2.medium/204807",
+      "rating": 4.8,
+      "price": 4900
+    },
+    {
+      "id": 24,
+      "name": "Sofa DAMHALE",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/99122",
+      "rating": 4.9,
+      "price": 8500
+    },
+    {
+      "id": 25,
+      "name": "Sofa HUNDIGE",
+      "img": "https://cdn3.jysk.com/getimage/wd2.medium/213324",
+      "rating": 4.9,
+      "price": 7990
+    },
+    {
+      "id": 26,
+      "name": "Sofa EGEDAL",
+      "img": "https://cdn3.jysk.com/getimage/wd2.medium/59289",
+      "rating": 4.6,
+      "price": 9100
+    },
+    {
+      "id": 27,
+      "name": "Sofa KARE",
+      "img": "https://cdn4.jysk.com/getimage/wd2.medium/115287",
+      "rating": 5.0,
+      "price": 6850
+    }
+  ],
+  "beds": [
+    {
+      "id": 28,
+      "name": "Bed ALNOR",
+      "img": "https://cdn2.jysk.com/getimage/wd2.medium/139288",
+      "rating": 4.7,
+      "price": 11380
+    },
+    {
+      "id": 29,
+      "name": "Bed LIMFJORDEN",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/123935",
+      "rating": 4.9,
+      "price": 10000
+    },
+    {
+      "id": 30,
+      "name": "Bed HALD",
+      "img": "https://cdn4.jysk.com/getimage/wd2.medium/162282",
+      "rating": 4.9,
+      "price": 10500
+    },
+    {
+      "id": 31,
+      "name": "Bed KUNGSHAMN",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/115448",
+      "rating": 5.0,
+      "price": 6900
+    },
+    {
+      "id": 32,
+      "name": "Bed KONGSBERG",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/144516",
+      "rating": 4.8,
+      "price": 8250
+    },
+    {
+      "id": 33,
+      "name": "Bed KONGSBERG BIG",
+      "img": "https://cdn3.jysk.com/getimage/wd2.medium/214388",
+      "rating": 4.9,
+      "price": 9990
+    },
+    {
+      "id": 34,
+      "name": "Bed HASLEV",
+      "img": "https://cdn2.jysk.com/getimage/wd2.medium/162288",
+      "rating": 4.9,
+      "price": 12000
+    },
+    {
+      "id": 35,
+      "name": "Bed ABILDRO",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/117568",
+      "rating": 4.6,
+      "price": 4900
+    },
+    {
+      "id": 36,
+      "name": "Bed MARKSKEL",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/185279",
+      "rating": 5.0,
+      "price": 7500
+    }
+  ],
+  "lamps": [
+    {
+      "id": 40,
+      "name": "Chandelier SIGVARD",
+      "img": "https://cdn2.jysk.com/getimage/wd2.medium/180821",
+      "rating": 5.0,
+      "price": 3990
+    },
+    {
+      "id": 41,
+      "name": "Chandelier MAGNAR 3-in-1",
+      "img": "https://cdn4.jysk.com/getimage/wd2.medium/198753",
+      "rating": 4.8,
+      "price": 5000
+    },
+    {
+      "id": 42,
+      "name": "Chandelier KARLSSON",
+      "img": "https://cdn3.jysk.com/getimage/wd2.medium/158321",
+      "rating": 4.9,
+      "price": 3000
+    },
+    {
+      "id": 43,
+      "name": "Chandelier KORNELIUS",
+      "img": "https://cdn2.jysk.com/getimage/wd2.medium/189462",
+      "rating": 4.6,
+      "price": 1750
+    },
+    {
+      "id": 44,
+      "name": "Chandelier KRISTOF",
+      "img": "https://cdn3.jysk.com/getimage/wd2.medium/109920",
+      "rating": 5.0,
+      "price": 450
+    },
+    {
+      "id": 45,
+      "name": "Table Lamp ALBERT",
+      "img": "https://cdn2.jysk.com/getimage/wd2.medium/124300",
+      "rating": 4.7,
+      "price": 3980
+    },
+    {
+      "id": 37,
+      "name": "Table Lamp EDMUND",
+      "img": "https://cdn2.jysk.com/getimage/wd2.medium/182190",
+      "rating": 5.0,
+      "price": 3990
+    },
+    {
+      "id": 38,
+      "name": "Table Lamp JULIUS",
+      "img": "https://cdn4.jysk.com/getimage/wd2.medium/180817",
+      "rating": 5.0,
+      "price": 3990
+    },
+    {
+      "id": 39,
+      "name": "Table Lamp HELMER",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/176278",
+      "rating": 5.0,
+      "price": 3990
+    }
+  ],
+  "kitchen": [
+    {
+      "id": 46,
+      "name": "Kitchen Bridget Grade",
+      "img": "https://cdn.27.ua/799/15/a4/464292_9.jpeg",
+      "rating": 4.7,
+      "price": 15380
+    },
+    {
+      "id": 47,
+      "name": "Kitchen Katie Grade",
+      "img": "https://cdn.27.ua/799/b3/86/4043654_1.jpeg",
+      "rating": 4.9,
+      "price": 15000
+    },
+    {
+      "id": 48,
+      "name": "Kitchen Katarina",
+      "img": "https://cdn.27.ua/799/bd/99/1162649_7.jpeg",
+      "rating": 4.9,
+      "price": 13500
+    },
+    {
+      "id": 49,
+      "name": "Kitchen Grade MS",
+      "img": "https://cdn.27.ua/799/21/42/2236738_1.jpeg",
+      "rating": 5.0,
+      "price": 16900
+    },
+    {
+      "id": 50,
+      "name": "Kitchen Berta Grade",
+      "img": "https://cdn.27.ua/799/ee/bc/1371836_5.jpeg",
+      "rating": 4.8,
+      "price": 18250
+    },
+    {
+      "id": 51,
+      "name": "Kitchen Katarina Lux",
+      "img": "https://cdn.27.ua/799/72/78/4092536_3.jpeg",
+      "rating": 4.9,
+      "price": 21000
+    },
+    {
+      "id": 52,
+      "name": "Modular Kitchen Grade",
+      "img": "https://cdn.27.ua/799/83/83/7177091_1.jpeg",
+      "rating": 4.9,
+      "price": 22500
+    },
+    {
+      "id": 53,
+      "name": "Country Kitchen Grade",
+      "img": "https://cdn.27.ua/799/bb/1e/5946142_4.jpeg",
+      "rating": 4.6,
+      "price": 13800
+    },
+    {
+      "id": 54,
+      "name": "Kitchen Grade MS",
+      "img": "https://cdn.27.ua/799/21/40/2236736_1.jpeg",
+      "rating": 5.0,
+      "price": 15750
+    }
+  ],
+  "chimneys": [
+    {
+      "id": 55,
+      "name": "Electric Fireplace Flamma",
+      "img": "https://cdn.27.ua/799/78/0a/2521098_4.jpeg",
+      "rating": 4.7,
+      "price": 11800
+    },
+    {
+      "id": 56,
+      "name": "Electric Fireplace Flamma EF",
+      "img": "https://cdn.27.ua/799/32/46/275014_13.jpeg",
+      "rating": 4.9,
+      "price": 12000
+    },
+    {
+      "id": 57,
+      "name": "Fireplace Set ArtiFlame",
+      "img": "https://cdn.27.ua/799/60/42/2842690_2.jpeg",
+      "rating": 4.9,
+      "price": 13000
+    },
+    {
+      "id": 58,
+      "name": "Fireplace Set Tagu Larsen",
+      "img": "https://cdn.27.ua/sc--media--prod/default/0b/69/50/0b6950b2-4ae4-4380-97a2-3c9ed7cdcaba.jpg",
+      "rating": 5.0,
+      "price": 14500
+    },
+    {
+      "id": 59,
+      "name": "Electric Fireplace ArtiFlame",
+      "img": "https://cdn.27.ua/799/60/2e/2842670_3.jpeg",
+      "rating": 4.8,
+      "price": 16000
+    },
+    {
+      "id": 60,
+      "name": "Electric Fireplace BonFire",
+      "img": "https://cdn.27.ua/799/e7/d1/1107921_1.jpeg",
+      "rating": 4.9,
+      "price": 18000
+    },
+    {
+      "id": 61,
+      "name": "Electric Fireplace ArtiFlame",
+      "img": "https://cdn.27.ua/sc--media--prod/default/cf/45/e1/cf45e1c1-53f6-4d62-bfad-8c03fe2ab267.png",
+      "rating": 4.9,
+      "price": 20000
+    },
+    {
+      "id": 62,
+      "name": "Electric Fireplace with Sound",
+      "img": "https://cdn.27.ua/sc--media--prod/default/6f/1d/30/6f1d3044-d8d6-4519-8801-62e48b392058.jpg",
+      "rating": 4.6,
+      "price": 22000
+    },
+    {
+      "id": 63,
+      "name": "Electric Fireplace ArtiFlame AF42",
+      "img": "https://cdn.27.ua/sc--media--prod/default/69/36/c4/6936c443-5112-42d2-9698-f98c0dca7d28.jpg",
+      "rating": 5.0,
+      "price": 25000
+    }
+  ],
+  "storage": [
+    {
+      "id": 64,
+      "name": "JUTE Box",
+      "img": "https://cdn4.jysk.com/getimage/wd2.medium/194183",
+      "rating": 4.7,
+      "price": 100
+    },
+    {
+      "id": 65,
+      "name": "KRESTEN Basket",
+      "img": "https://cdn2.jysk.com/getimage/wd2.medium/193312",
+      "rating": 4.9,
+      "price": 150
+    },
+    {
+      "id": 66,
+      "name": "SEVERIN Woven Basket",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/37916",
+      "rating": 4.9,
+      "price": 200
+    },
+    {
+      "id": 67,
+      "name": "FINNIAN Box",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/193311",
+      "rating": 5.0,
+      "price": 100
+    },
+    {
+      "id": 68,
+      "name": "STINUS Woven Baskets",
+      "img": "https://cdn2.jysk.com/getimage/wd2.medium/147152",
+      "rating": 4.8,
+      "price": 200
+    },
+    {
+      "id": 69,
+      "name": "GERVALD Box",
+      "img": "https://cdn2.jysk.com/getimage/wd2.medium/175722",
+      "rating": 4.9,
+      "price": 150
+    },
+    {
+      "id": 70,
+      "name": "GORM Basket",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/40494",
+      "rating": 4.9,
+      "price": 300
+    },
+    {
+      "id": 71,
+      "name": "FJORDUR Box",
+      "img": "https://cdn2.jysk.com/getimage/wd2.medium/160583",
+      "rating": 4.6,
+      "price": 250
+    },
+    {
+      "id": 72,
+      "name": "MALTE Basket",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/175658",
+      "rating": 5.0,
+      "price": 300
+    }
+  ],
+  "gardening": [
+    {
+      "id": 73,
+      "name": "LOMMA Sun Lounger",
+      "img": "https://cdn4.jysk.com/getimage/wd2.medium/182204",
+      "rating": 4.7,
+      "price": 1200
+    },
+    {
+      "id": 74,
+      "name": "SANKT Pavilion Roof",
+      "img": "https://cdn2.jysk.com/getimage/wd2.medium/82932",
+      "rating": 4.9,
+      "price": 900
+    },
+    {
+      "id": 75,
+      "name": "YPPENBJERG Parasol",
+      "img": "https://cdn1.jysk.com/getimage/wd2.medium/198542",
+      "rating": 4.9,
+      "price": 3400
+    },
+    {
+      "id": 76,
+      "name": "Garden Tools",
+      "img": "https://file.agro-market.net/upload/resize_cache/iblock/937/345_483_1/4pk82hauwx9g2s6icb5ap1a8x2dnvjyo.jpeg",
+      "rating": 4.8,
+      "price": 340
+    },
+    {
+      "id": 77,
+      "name": "TAMBOHUSE Sun Lounger",
+      "img": "https://cdn2.jysk.com/getimage/wd2.medium/108176",
+      "rating": 5.0,
+      "price": 4500
+    },
+    {
+      "id": 78,
+      "name": "JENNUM Lounge Sofa",
+      "img": "https://cdn3.jysk.com/getimage/wd2.medium/199013",
+      "rating": 4.9,
+      "price": 6600
+    },
+    {
+      "id": 79,
+      "name": "JERUP Side Panel",
+      "img": "https://cdn2.jysk.com/getimage/wd2.medium/106639",
+      "rating": 4.9,
+      "price": 4000
+    },
+    {
+      "id": 80,
+      "name": "Lechuza Garden Watering Can",
+      "img": "https://files.foxtrot.com.ua/PhotoNew/00_638213430908656973.webp",
+      "rating": 4.6,
+      "price": 700
+    },
+    {
+      "id": 81,
+      "name": "HASLE Sun Lounger",
+      "img": "https://cdn4.jysk.com/getimage/wd2.medium/121218",
+      "rating": 5.0,
+      "price": 3500
+    }
+  ]
+}

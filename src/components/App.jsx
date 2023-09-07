@@ -4,26 +4,31 @@ import MobileMenu from "./MobileMenu/MobileMenu";
 import Hero from "./Hero/Hero";
 import Benefits from "./Benefits/Benefits";
 import Category from "./Category/Category";
+import BestSeller from "./BestSeller/BestSeller";
 
 
 export const App = () => {
     const [isMobileMenuOpened, setIsMobileMenuOpened] = useState(false);
+    // const body = document.querySelector('body');
 
     const onOpenMobileMenuClick = () => {
         setIsMobileMenuOpened(true);
+        // body.classList.add('hidden');
     };
 
     const onCloseMobileMenuClick = () => {
         setIsMobileMenuOpened(false);
+        // body.classList.remove('hidden');
     };
 
     return (
-        <div>
-          <Header onOpen={onOpenMobileMenuClick} />
-          <MobileMenu isMobileMenuOpened={isMobileMenuOpened} onClose={onCloseMobileMenuClick} />
-          <Hero />
+        <>
+            <Header onOpen={onOpenMobileMenuClick} />
+            <MobileMenu isMobileMenuOpened={isMobileMenuOpened} onClose={onCloseMobileMenuClick} />
+            <Hero />
             <Benefits />
             <Category />
-        </div>
+            <BestSeller />
+        </>
     );
 };

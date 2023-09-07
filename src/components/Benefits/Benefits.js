@@ -1,5 +1,4 @@
 import css from './Benefits.module.css'
-// import sprite from '../../images/symbol-defs.svg'
 import cube from '../../images/cube.png'
 import payment from '../../images/payment.png'
 import delivery from '../../images/delivery.png'

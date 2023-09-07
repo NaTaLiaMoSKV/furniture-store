@@ -3,7 +3,7 @@ import sprite from '../../images/symbol-defs.svg'
 
 export default function Category() {
     return (
-        <div className={css.category} id='shop'>
+        <div className={css.category}>
             <section>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px'}}>
                     <p className='section-subtitle'>Benefits</p>
