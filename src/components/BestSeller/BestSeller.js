@@ -27,7 +27,7 @@ export default function BestSeller() {
     ];
 
     return (
-        <section id="shop">
+        <section id='shop'>
             <div className={benefitsCss.benefitsContainer}>
                 <p className="section-subtitle">Best Seller</p>
                 <div className={benefitsCss.titleContainer}>

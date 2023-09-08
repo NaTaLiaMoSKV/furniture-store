@@ -16,6 +16,12 @@
     transition: all 250ms linear;
 }
 
+.mobileMenuContainer.hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 250ms linear;
+}
+
 .mobileMenuContainer.show {
     opacity: 1;
     visibility: visible;
@@ -38,6 +44,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    scroll-snap-type: none;
 }
 
 .mobileMenuButtonClose {
@@ -64,8 +71,7 @@
     transition: color 150ms linear;
 }
 
-.navItem:hover,
-.navItem:focus {
+.navItem:hover {
     color: #8bbb97;
 }
 

@@ -43,6 +43,12 @@ header {
 .supportContainer {
     display: none;
 }
+/* 
+.navLink{
+    display: block;
+    height: 100%;
+    text-align: center;
+} */
 
 .mobileMenuButton {
     border: none;

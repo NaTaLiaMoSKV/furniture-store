@@ -9,22 +9,21 @@ import BestSeller from "./BestSeller/BestSeller";
 
 export const App = () => {
     const [isMobileMenuOpened, setIsMobileMenuOpened] = useState(false);
-    // const body = document.querySelector('body');
-
-    const onOpenMobileMenuClick = () => {
+    
+    const onOpenMobileMenuClick = e => {
+        e.preventDefault();
         setIsMobileMenuOpened(true);
-        // body.classList.add('hidden');
     };
 
-    const onCloseMobileMenuClick = () => {
-        setIsMobileMenuOpened(false);
-        // body.classList.remove('hidden');
+    const onCloseMobileMenuClick = ()=> {
+        setIsMobileMenuOpened(false)
     };
 
     return (
         <>
             <Header onOpen={onOpenMobileMenuClick} />
             <MobileMenu isMobileMenuOpened={isMobileMenuOpened} onClose={onCloseMobileMenuClick} />
+            
             <Hero />
             <Benefits />
             <Category />

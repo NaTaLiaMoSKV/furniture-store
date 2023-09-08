@@ -6,7 +6,7 @@ import promo from '../../images/promo.png'
 
 export default function Benefits() {
     return (
-        <section id="about">
+        <section id='about'>
             <div className={css.exploreContainer}>
                 <div className={css.exploreWrapper}>
                     <p className={css.exploreText}>Explore Now</p>
