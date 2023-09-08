@@ -69,6 +69,7 @@
 } 
 
 .itemDescriptionWrapper {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     font-weight: 600;
@@ -84,7 +85,9 @@
     color: #494949;
 }
 
+
 @media screen and (min-width: 768px) {
+
     .itemsList {
         gap: 20px;
     }
@@ -94,7 +97,9 @@
     }
 }
 
+
 @media screen and (min-width: 1200px) {
+
     .sellerButtonContainer {
         margin-top: 40px;
         margin-bottom: 20px; 
@@ -111,7 +116,7 @@
     }
 
     .itemDescriptionWrapper {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .itemCategory {
@@ -119,7 +124,9 @@
     }
 }
 
+
 @media screen and (min-width: 1514px) {
+
     .itemsList {
         max-width: 1450px;
         justify-content: flex-start;

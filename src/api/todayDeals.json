@@ -1,0 +1,30 @@
+[
+  {
+    "id": 2,
+    "name": "Chair KASTBJERG N-49",
+    "img": "https://kupistul.ua/public/upload/catalogGood/stul-n-49-beliy-23463139.jpg",
+    "rating": 4.5,
+    "price": 400
+  },
+  {
+    "id": 21,
+    "name": "Corner Sofa EGENSE",
+    "img": "https://cdn3.jysk.com/getimage/wd2.medium/108871",
+    "rating": 4.9,
+    "price": 9870
+  },
+  {
+    "id": 10,
+    "name": "Table TAPS",
+    "img": "https://cdn2.jysk.com/getimage/wd2.medium/59295",
+    "rating": 4.7,
+    "price": 1380
+  },
+  {
+    "id": 57,
+    "name": "Fireplace Set ArtiFlame",
+    "img": "https://cdn.27.ua/799/60/42/2842690_2.jpeg",
+    "rating": 4.9,
+    "price": 13000
+  }
+]

@@ -6,6 +6,7 @@ import Benefits from "./Benefits/Benefits";
 import Category from "./Category/Category";
 import BestSeller from "./BestSeller/BestSeller";
 import Offers from "./Offers/Offers";
+import TodayDeals from "./TodayDeals/TodayDeals";
 
 
 export const App = () => {
@@ -30,6 +31,7 @@ export const App = () => {
             <Category />
             <BestSeller />
             <Offers />
+            <TodayDeals />
         </>
     );
 };
