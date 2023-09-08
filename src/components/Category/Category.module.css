@@ -28,7 +28,6 @@
     flex-wrap: wrap;
 }
 
-
 .galleryDescriptionContainer {
     width: calc(100% - 40px);
     position: absolute;

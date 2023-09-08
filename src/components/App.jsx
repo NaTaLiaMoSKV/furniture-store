@@ -5,11 +5,12 @@ import Hero from "./Hero/Hero";
 import Benefits from "./Benefits/Benefits";
 import Category from "./Category/Category";
 import BestSeller from "./BestSeller/BestSeller";
+import Offers from "./Offers/Offers";
 
 
 export const App = () => {
     const [isMobileMenuOpened, setIsMobileMenuOpened] = useState(false);
-    
+
     const onOpenMobileMenuClick = e => {
         e.preventDefault();
         setIsMobileMenuOpened(true);
@@ -28,6 +29,7 @@ export const App = () => {
             <Benefits />
             <Category />
             <BestSeller />
+            <Offers />
         </>
     );
 };
