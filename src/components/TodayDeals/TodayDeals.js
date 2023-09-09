@@ -34,7 +34,7 @@ export default function TodayDeals() {
         <section className={css.todayDeals}>
             <p className='section-subtitle'>Today Deals</p>
             <h2 className={css.titleText} style={{textAlign: 'center'}}>Unmissable Daily Deals Await: Shop Now and Save!</h2>
-            <div style={{ overflow: 'hidden' }}>
+            <div className={css.todayDealsWrapper}>
                 <div className={css.heroButtonsContainer}>
                     <button className={css.heroPrevButton} onClick={prevSlide} disabled={isPrevButtonDisabled}>
                         <svg className={css.heroPrevIcon} width={34} height={32}>

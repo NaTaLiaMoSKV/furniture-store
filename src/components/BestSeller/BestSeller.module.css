@@ -1,6 +1,7 @@
 .sellerButtonContainer {
     margin-top: 20px;
     margin-bottom: 15px;
+    width: 100%;
     display: flex;
     gap: 13px;
     overflow-y: hidden;
