@@ -1,3 +1,7 @@
+.blogContainer {
+    background-color: #fafafa;
+}
+
 .blogList {
     margin-top: 30px;
     display: flex;

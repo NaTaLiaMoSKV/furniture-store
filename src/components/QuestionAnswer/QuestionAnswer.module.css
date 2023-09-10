@@ -1,0 +1,44 @@
+.questionWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.questionText {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.questionButton {
+    border: none;
+    padding-top: 5px;
+}
+
+.answerText {
+    color: #8c8c8c;
+    padding-top: 15px;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.rotateIcon {
+    transform: rotate(180deg);
+}
+
+
+@media screen and (min-width: 1200px) {
+    
+    .questionText {
+        font-size: 20px;
+    }
+
+    .answerText {
+        color: #8c8c8c;
+        padding-top: 20px;
+        font-size: 18px;
+    }
+}

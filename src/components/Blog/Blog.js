@@ -29,39 +29,41 @@ export default function Blog() {
     ];
 
     return (
-        <section id='shop'>
-            <div className={benefitsCss.benefitsContainer}>
-                <p className="section-subtitle">Blogs & News</p>
-                <div className={benefitsCss.titleContainer}>
-                    <h2 className={benefitsCss.titleText}>Our Latest Blogs & News</h2>
-                    <p className={benefitsCss.subtitleText}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                </div>
-                <ul className={css.blogList}>
-                    {blogs.map(item => (
-                        <li className={css.blog} key={item.id}>
-                            <img className={css.blogImage} src={item.img} alt={item.category}></img>
-                            <div className={css.blogDescriptionContainer}>
-                                <p className={css.blogCategoryText}>{item.category}</p>
-                                <h3 className={css.blogTitle}>{item.title}</h3>
-                                <div className={css.blogInfoContainer}>
-                                    <div className={css.blogInfoWrapper}>
-                                        <img className={css.blogInfoImage} src={userImage} alt='autor'></img>
-                                        <p className={css.blogInfoText}>by Admin</p>
-                                    </div>
-                                    <div className={css.blogInfoWrapper}>
-                                        <img className={css.blogInfoImage} src={calendarImage} alt='calendar'></img>
-                                        <p className={css.blogInfoText}>23 June, 2023</p>
+        <div className={css.blogContainer}>
+            <section id='shop'>
+                <div className={benefitsCss.benefitsContainer}>
+                    <p className="section-subtitle">Blogs & News</p>
+                    <div className={benefitsCss.titleContainer}>
+                        <h2 className={benefitsCss.titleText}>Our Latest Blogs & News</h2>
+                        <p className={benefitsCss.subtitleText}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <ul className={css.blogList}>
+                        {blogs.map(item => (
+                            <li className={css.blog} key={item.id}>
+                                <img className={css.blogImage} src={item.img} alt={item.category}></img>
+                                <div className={css.blogDescriptionContainer}>
+                                    <p className={css.blogCategoryText}>{item.category}</p>
+                                    <h3 className={css.blogTitle}>{item.title}</h3>
+                                    <div className={css.blogInfoContainer}>
+                                        <div className={css.blogInfoWrapper}>
+                                            <img className={css.blogInfoImage} src={userImage} alt='autor'></img>
+                                            <p className={css.blogInfoText}>by Admin</p>
+                                        </div>
+                                        <div className={css.blogInfoWrapper}>
+                                            <img className={css.blogInfoImage} src={calendarImage} alt='calendar'></img>
+                                            <p className={css.blogInfoText}>23 June, 2023</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            
-                        </li>
-                    ))}
-                </ul>
-            </div>
-        </section>
+                                
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </section>
+        </div>
     )
 }
