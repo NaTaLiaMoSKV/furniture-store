@@ -89,8 +89,6 @@ export default function ReviewsSlider() {
         };
     }, [currentSlide, currentDirection, reviews.length]);
 
-    
-
     return (
         <div className={css.sliderContainer}>
             <div className={heroCss.heroGalleryContainer}>

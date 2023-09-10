@@ -1,0 +1,177 @@
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #282828;
+}
+
+.footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.footerDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.descriptionText {
+    color: #bcbcbc;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.iconsList {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #525050;
+    border-radius: 50%;
+    transition: background-color 150ms linear;
+}
+
+.iconSvg {
+    width: 15px;
+    height: 15px;
+    fill: #fafafa;
+    transition: fill 150ms linear;
+}
+
+.icon:hover,
+.icon:focus  {
+    background-color: #fafafa;
+}
+
+.icon:hover .iconSvg,
+.icon:focus .iconSvg {
+    fill: #525050;
+}
+
+.iconLink {
+    display: flex;
+}
+
+.linkContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.linkWrapper {
+    width: 40%;
+}
+
+.linkListTitle {
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.linkList {
+    color: #bcbcbc;
+}
+
+.linkItem {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.link {
+    transition: color 150ms linear;
+}
+
+.link:hover,
+.link:focus {
+    color: #fafafa;
+}
+
+.copyrightContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    color: #bcbcbc;
+    border-top: 1px solid #525050;
+    font-size: 14px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .footerContainer {
+        flex-wrap: nowrap;
+    }
+
+    .footerDescriptionContainer {
+        width: 70%;
+        gap: 30px;
+    }
+
+    .linkWrapper {
+        width: auto;
+    }
+
+    .copyrightContainer {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .footerContainer {
+        justify-content: space-around;
+    }
+
+    .footerDescriptionContainer {
+        width: 30%;
+        gap: 20px;
+    }
+
+    .iconsList {
+        gap: 15px;
+    }
+
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .iconSvg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .linkListTitle {
+        margin-bottom: 15px;
+    }
+
+    .linkItem {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+
+    .copyrightContainer {
+        font-size: 16px;
+    }
+}
+

@@ -12,6 +12,7 @@ import Blog from "./Blog/Blog";
 import Questions from "./Questions/Questions";
 import Newsletter from "./Newsletter/Newsletter";
 import Testimonials from "./Testimonials/Testimonials";
+import Footer from "./Footer/Footer";
 
 
 export const App = () => {
@@ -41,6 +42,9 @@ export const App = () => {
             <Blog />
             <Questions />
             <Newsletter />
+            <Footer />
+            <Newsletter />
+
             
         </>
     );
