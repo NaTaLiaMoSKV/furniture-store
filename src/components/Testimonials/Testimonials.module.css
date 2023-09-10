@@ -1,0 +1,53 @@
+.testimonials {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f2f2f2;
+}
+
+.testimonialsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.subtitleText {
+    font-size: 14px;
+    color: #929090;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .testimonials {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .testimonialsContainer {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .subtitleText {
+        text-align: start;
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .testimonialsContainer {
+        justify-content: space-around;
+    }
+
+    .subtitleText {
+        width: 450px;
+    }
+}
+

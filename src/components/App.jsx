@@ -11,6 +11,7 @@ import Updates from "./Updates/Updates";
 import Blog from "./Blog/Blog";
 import Questions from "./Questions/Questions";
 import Newsletter from "./Newsletter/Newsletter";
+import Testimonials from "./Testimonials/Testimonials";
 
 
 export const App = () => {
@@ -35,10 +36,12 @@ export const App = () => {
             <BestSeller />
             <Offers />
             <TodayDeals />
+            <Testimonials />
             <Updates />
             <Blog />
             <Questions />
             <Newsletter />
+            
         </>
     );
 };

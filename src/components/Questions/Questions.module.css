@@ -13,6 +13,7 @@
 }
 
 .titleText {
+    text-align: center;
     line-height: 1.2;
     letter-spacing: 0.02em;
     font-weight: 700;
@@ -45,6 +46,7 @@
     }
 
     .titleText {
+        text-align: start;
         font-size: 28px;
     }
 
