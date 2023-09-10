@@ -11,7 +11,7 @@ export default function QuestionAnswer ({ question, answer }) {
 
     return (
         <>
-            <div className={css.questionWrapper}>
+            <div className={css.questionWrapper} onClick={toggleAnswer}>
                 <p className={css.questionText}>{question}</p>
                 <button className={css.questionButton} onClick={toggleAnswer}>
                     <svg width={15} height={15} className={isAnswerVisible ? css.rotateIcon : css.icon}>

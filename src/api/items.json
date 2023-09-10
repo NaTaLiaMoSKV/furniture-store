@@ -69,21 +69,21 @@
       "id": 10,
       "name": "Table TAPS",
       "img": "https://cdn2.jysk.com/getimage/wd2.medium/59295",
-      "rating": 4.7,
+      "rating": 4.6,
       "price": 1380
     },
     {
       "id": 11,
       "name": "Table TURUP",
       "img": "https://cdn1.jysk.com/getimage/wd2.medium/212314",
-      "rating": 4.9,
+      "rating": 4.8,
       "price": 1450
     },
     {
       "id": 12,
       "name": "Table NYBO",
       "img": "https://cdn3.jysk.com/getimage/wd2.medium/98401",
-      "rating": 4.9,
+      "rating": 5.0,
       "price": 870
     },
     {
@@ -134,21 +134,21 @@
       "id": 19,
       "name": "Sofa EGENSE",
       "img": "https://cdn2.jysk.com/getimage/wd2.medium/185326",
-      "rating": 4.7,
+      "rating": 4.8,
       "price": 6380
     },
     {
       "id": 20,
       "name": "Sofa GISTRUP",
       "img": "https://cdn1.jysk.com/getimage/wd2.medium/161877",
-      "rating": 4.9,
+      "rating": 5.0,
       "price": 7450
     },
     {
       "id": 21,
       "name": "Corner Sofa EGENSE",
       "img": "https://cdn3.jysk.com/getimage/wd2.medium/108871",
-      "rating": 4.9,
+      "rating": 4.8,
       "price": 9870
     },
     {
@@ -199,14 +199,14 @@
       "id": 28,
       "name": "Bed ALNOR",
       "img": "https://cdn2.jysk.com/getimage/wd2.medium/139288",
-      "rating": 4.7,
+      "rating": 4.3,
       "price": 11380
     },
     {
       "id": 29,
       "name": "Bed LIMFJORDEN",
       "img": "https://cdn1.jysk.com/getimage/wd2.medium/123935",
-      "rating": 4.9,
+      "rating": 4.7,
       "price": 10000
     },
     {
@@ -329,21 +329,21 @@
       "id": 46,
       "name": "Kitchen Bridget Grade",
       "img": "https://cdn.27.ua/799/15/a4/464292_9.jpeg",
-      "rating": 4.7,
+      "rating": 4.8,
       "price": 15380
     },
     {
       "id": 47,
       "name": "Kitchen Katie Grade",
       "img": "https://cdn.27.ua/799/b3/86/4043654_1.jpeg",
-      "rating": 4.9,
+      "rating": 4.5,
       "price": 15000
     },
     {
       "id": 48,
       "name": "Kitchen Katarina",
       "img": "https://cdn.27.ua/799/bd/99/1162649_7.jpeg",
-      "rating": 4.9,
+      "rating": 5.0,
       "price": 13500
     },
     {
@@ -459,21 +459,21 @@
       "id": 64,
       "name": "JUTE Box",
       "img": "https://cdn4.jysk.com/getimage/wd2.medium/194183",
-      "rating": 4.7,
+      "rating": 5,
       "price": 100
     },
     {
       "id": 65,
       "name": "KRESTEN Basket",
       "img": "https://cdn2.jysk.com/getimage/wd2.medium/193312",
-      "rating": 4.9,
+      "rating": 5,
       "price": 150
     },
     {
       "id": 66,
       "name": "SEVERIN Woven Basket",
       "img": "https://cdn1.jysk.com/getimage/wd2.medium/37916",
-      "rating": 4.9,
+      "rating": 4.8,
       "price": 200
     },
     {
@@ -531,14 +531,14 @@
       "id": 74,
       "name": "SANKT Pavilion Roof",
       "img": "https://cdn2.jysk.com/getimage/wd2.medium/82932",
-      "rating": 4.9,
+      "rating": 4.6,
       "price": 900
     },
     {
       "id": 75,
       "name": "YPPENBJERG Parasol",
       "img": "https://cdn1.jysk.com/getimage/wd2.medium/198542",
-      "rating": 4.9,
+      "rating": 4.8,
       "price": 3400
     },
     {
