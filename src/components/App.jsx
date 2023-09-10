@@ -8,6 +8,7 @@ import BestSeller from "./BestSeller/BestSeller";
 import Offers from "./Offers/Offers";
 import TodayDeals from "./TodayDeals/TodayDeals";
 import Updates from "./Updates/Updates";
+import Blog from "./Blog/Blog";
 
 
 export const App = () => {
@@ -34,6 +35,7 @@ export const App = () => {
             <Offers />
             <TodayDeals />
             <Updates />
+            <Blog />
         </>
     );
 };

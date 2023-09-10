@@ -33,8 +33,8 @@ export default function TodayDeals() {
     return (
         <section className={css.todayDeals}>
             <p className='section-subtitle'>Today Deals</p>
-            <h2 className={css.titleText} style={{textAlign: 'center'}}>Unmissable Daily Deals Await: Shop Now and Save!</h2>
-            <div className={css.todayDealsWrapper}>
+            <div className={css.titleContainer}>
+                <h2 className={css.titleText} style={{textAlign: 'center'}}>Unmissable Daily Deals Await: Shop Now and Save!</h2>
                 <div className={css.heroButtonsContainer}>
                     <button className={css.heroPrevButton} onClick={prevSlide} disabled={isPrevButtonDisabled}>
                         <svg className={css.heroPrevIcon} width={34} height={32}>
@@ -47,6 +47,20 @@ export default function TodayDeals() {
                         </svg>
                     </button>
                 </div>
+            </div>
+            <div className={css.todayDealsWrapper}>
+                {/* <div className={css.heroButtonsContainer}>
+                    <button className={css.heroPrevButton} onClick={prevSlide} disabled={isPrevButtonDisabled}>
+                        <svg className={css.heroPrevIcon} width={34} height={32}>
+                            <use href={sprite + '#icon-arrow'}></use>
+                        </svg>
+                    </button>
+                    <button className={css.heroNextButton} onClick={nextSlide} disabled={isNextButtonDisabled}>
+                        <svg className={css.heroNextIcon} width={34} height={32}>
+                            <use href={sprite + '#icon-arrow'}></use>
+                        </svg>
+                    </button>
+                </div> */}
                 <ul className={css.gallery} style={{ transform: `translateX(${galleryTransform}%)` }}>
                     {galleryItems && galleryItems.map((item) => (
                         <li key={item.id} className={css.galleryItem}>
