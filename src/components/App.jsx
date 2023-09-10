@@ -10,6 +10,7 @@ import TodayDeals from "./TodayDeals/TodayDeals";
 import Updates from "./Updates/Updates";
 import Blog from "./Blog/Blog";
 import Questions from "./Questions/Questions";
+import Newsletter from "./Newsletter/Newsletter";
 
 
 export const App = () => {
@@ -28,7 +29,6 @@ export const App = () => {
         <>
             <Header onOpen={onOpenMobileMenuClick} />
             <MobileMenu isMobileMenuOpened={isMobileMenuOpened} onClose={onCloseMobileMenuClick} />
-            
             <Hero />
             <Benefits />
             <Category />
@@ -38,7 +38,7 @@ export const App = () => {
             <Updates />
             <Blog />
             <Questions />
-            {/* <Blog /> */}
+            <Newsletter />
         </>
     );
 };

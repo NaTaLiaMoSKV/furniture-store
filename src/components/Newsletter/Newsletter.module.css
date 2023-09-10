@@ -1,0 +1,105 @@
+.newsletter {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f2f2f2;
+}
+
+.newsletterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.titleText {
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+}
+
+.subtitleText {
+    font-size: 16px;
+    text-align: center;
+    color: #8c8c8c;
+    line-height: 1.5;
+}
+
+form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.formInput {
+    padding: 10px 10px 10px 33px;
+    width: 60%;
+    border: 1px solid #bcbcbc;
+    border-radius: 20px;
+    outline: none;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+}
+
+.formInput::placeholder {
+    font-size: 12px;
+}
+
+.formImage {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 5px;
+    background-color: #ebeaea;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.formButton {
+    color: #fafafa;
+    background-color: #8bbb97;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 30px;
+    letter-spacing: 0.04em;
+    border: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    
+    .titleText {
+        width: 600px;
+        font-size: 32px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .newsletter {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .formInput {
+        padding: 15px 10px 15px 45px;
+        font-size: 16px;
+    }
+
+    .formInput::placeholder {
+        font-size: 16px;
+    }
+
+    .formImage {
+        width: 20px;
+        height: 20px;
+        left: 8px;
+        padding: 6px;
+    }
+    
+    .formButton {
+        padding: 13px 18px;
+    }
+}
