@@ -3,11 +3,11 @@ import sprite from '../../images/symbol-defs.svg'
 
 export default function Category() {
     return (
-        <div className={css.category}>
+        <div className='gray-section'>
             <section>
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px'}}>
-                    <p className='section-subtitle'>Benefits</p>
-                    <h2 className={css.titleText}>Discover Our Unique Collection of Exclusive Categories.</h2>
+                <div className={css.categoryContainer}>
+                    <p className='section-subtitle'>Category</p>
+                    <h2 className='center-title'>Discover Our Unique Collection of Exclusive Categories</h2>
                     <div className={css.categories}>
                         <div className={css.smallCategories}>
                             <div className={css.office}>

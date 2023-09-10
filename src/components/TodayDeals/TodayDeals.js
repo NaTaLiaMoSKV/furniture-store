@@ -34,7 +34,7 @@ export default function TodayDeals() {
         <section className={css.todayDeals}>
             <p className='section-subtitle'>Today Deals</p>
             <div className={css.titleContainer}>
-                <h2 className={css.titleText} style={{textAlign: 'center'}}>Unmissable Daily Deals Await: Shop Now and Save!</h2>
+                <h2 className='center-title'>Unmissable Daily Deals Await: Shop Now and Save!</h2>
                 <div className={css.heroButtonsContainer}>
                     <button className={css.heroPrevButton} onClick={prevSlide} disabled={isPrevButtonDisabled}>
                         <svg className={css.heroPrevIcon} width={34} height={32}>
@@ -49,18 +49,6 @@ export default function TodayDeals() {
                 </div>
             </div>
             <div className={css.todayDealsWrapper}>
-                {/* <div className={css.heroButtonsContainer}>
-                    <button className={css.heroPrevButton} onClick={prevSlide} disabled={isPrevButtonDisabled}>
-                        <svg className={css.heroPrevIcon} width={34} height={32}>
-                            <use href={sprite + '#icon-arrow'}></use>
-                        </svg>
-                    </button>
-                    <button className={css.heroNextButton} onClick={nextSlide} disabled={isNextButtonDisabled}>
-                        <svg className={css.heroNextIcon} width={34} height={32}>
-                            <use href={sprite + '#icon-arrow'}></use>
-                        </svg>
-                    </button>
-                </div> */}
                 <ul className={css.gallery} style={{ transform: `translateX(${galleryTransform}%)` }}>
                     {galleryItems && galleryItems.map((item) => (
                         <li key={item.id} className={css.galleryItem}>
@@ -79,7 +67,7 @@ export default function TodayDeals() {
                             
                             <p className={css.itemCategory}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <button type='button' className={css.itemBuyButton}>Buy Now</button>
+                            <button type='button' className='buy-button'>Buy Now</button>
                         </li>
                     ))}
                 </ul>

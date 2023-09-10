@@ -1,12 +1,13 @@
+import { useEffect, useState } from 'react';
 import css from './ReviewsSlider.module.css'
 import heroCss from '../Hero/Hero.module.css'
+
 import sprite from '../../images/symbol-defs.svg';
 import userImage1 from '../../images/user1.jpg';
 import userImage2 from '../../images/user2.jpg';
 import userImage3 from '../../images/user3.jpg';
 import userImage4 from '../../images/user4.jpg';
 import userImage5 from '../../images/user5.jpg';
-import { useEffect, useState } from 'react';
 
 export default function ReviewsSlider() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -103,18 +104,6 @@ export default function ReviewsSlider() {
                         </li>
                     ))}
                 </ul>
-                {/* <div className={heroCss.heroButtonsContainer}>
-                    <button className={heroCss.heroPrevButton} onClick={prevSlide} disabled={isPrevButtonDisabled}>
-                        <svg className={heroCss.heroPrevIcon} width={34} height={32}>
-                            <use href={sprite + '#icon-arrow'}></use>
-                        </svg>
-                    </button>
-                    <button className={heroCss.heroNextButton} onClick={nextSlide} disabled={isNextButtonDisabled}>
-                        <svg className={heroCss.heroNextIcon} width={34} height={32}>
-                            <use href={sprite + '#icon-arrow'}></use>
-                        </svg>
-                    </button>
-                </div> */}
             </div>
         </div>
         

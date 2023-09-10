@@ -1,9 +1,3 @@
-.testimonials {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: #f2f2f2;
-}
-
 .testimonialsContainer {
     display: flex;
     flex-wrap: wrap;
@@ -20,11 +14,6 @@
 
 
 @media screen and (min-width: 768px) {
-
-    .testimonials {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
 
     .testimonialsContainer {
         display: flex;

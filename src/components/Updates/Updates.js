@@ -1,12 +1,11 @@
 import css from './Updates.module.css'
-import categoryCss from '../Category/Category.module.css'
 
 export default function Updates() {
     
     return (
         <div className={css.updatesContainer}>
             <p className='section-subtitle'>Follow Us</p>
-            <h2 className={categoryCss.titleText} style={{ maxWidth: "400px" }}>Follow for Updates & Exclusive Offers!</h2>
+            <h2 className='center-title'>Follow for Updates & Exclusive Offers!</h2>
             <div className={css.updatesImages}>
                 <img className={css.updatesImage} src='https://i.pinimg.com/564x/98/33/d1/9833d139f2c1c798c6f34b98fd9a1bc4.jpg' alt='living room'></img>
                 <img className={css.updatesImage} src='https://i.pinimg.com/564x/87/86/b6/8786b638e74f6ba000232e2c135c78a1.jpg' alt='living room'></img>

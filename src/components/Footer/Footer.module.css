@@ -1,6 +1,6 @@
 footer {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     background-color: #282828;
 }
 
@@ -44,7 +44,6 @@ footer {
     width: 15px;
     height: 15px;
     fill: #fafafa;
-    transition: fill 150ms linear;
 }
 
 .icon:hover,
@@ -88,10 +87,6 @@ footer {
     font-size: 14px;
 }
 
-.link {
-    transition: color 150ms linear;
-}
-
 .link:hover,
 .link:focus {
     color: #fafafa;
@@ -113,7 +108,6 @@ footer {
 
     footer {
         padding-top: 60px;
-        padding-bottom: 60px;
     }
 
     .footerContainer {
@@ -130,6 +124,7 @@ footer {
     }
 
     .copyrightContainer {
+        padding-top: 30px;
         flex-wrap: nowrap;
         justify-content: space-between;
     }
@@ -145,6 +140,12 @@ footer {
     .footerDescriptionContainer {
         width: 30%;
         gap: 20px;
+    }
+
+    .descriptionText {
+        line-height: 1.4;
+        letter-spacing: 0.03em;
+        width: 400px;
     }
 
     .iconsList {
@@ -166,11 +167,12 @@ footer {
     }
 
     .linkItem {
-        font-size: 15px;
+        font-size: 16px;
         margin-bottom: 12px;
     }
 
     .copyrightContainer {
+        letter-spacing: 0.03em;
         font-size: 16px;
     }
 }

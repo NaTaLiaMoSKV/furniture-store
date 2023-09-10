@@ -13,6 +13,7 @@ import Questions from "./Questions/Questions";
 import Newsletter from "./Newsletter/Newsletter";
 import Testimonials from "./Testimonials/Testimonials";
 import Footer from "./Footer/Footer";
+import ScrollButton from "./ScrollButton/ScrollButton";
 
 
 export const App = () => {
@@ -43,7 +44,7 @@ export const App = () => {
             <Questions />
             <Newsletter />
             <Footer />
-            <Newsletter />
+            <ScrollButton />
 
             
         </>

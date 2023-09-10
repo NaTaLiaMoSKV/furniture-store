@@ -3,21 +3,17 @@ import cube from '../../images/cube.png'
 import payment from '../../images/payment.png'
 import delivery from '../../images/delivery.png'
 import promo from '../../images/promo.png'
+import TitleComponent from 'components/TitleComponent/TitleComponent'
 
 export default function Benefits() {
     return (
         <section id='about'>
             <div className={css.exploreContainer}>
-                <div className={css.exploreWrapper}>
-                    <p className={css.exploreText}>Explore Now</p>
-                </div>
+                    <button type='button' className='buy-button'>Explore Now</button>
             </div>
             <div className={css.benefitsContainer}>
                 <p className='section-subtitle'>Benefits</p>
-                <div className={css.titleContainer}>
-                    <h2 className={css.titleText}>What Makes Us the Preferred Choice?</h2>
-                    <p className={css.subtitleText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                </div>
+                <TitleComponent titleText={'What Makes Us the Preferred Choice?'}/>
                 <ul className={css.benefitsList}>
                     <li className={css.benefitsItem}>
                         <div className={css.benefitsImageWrapper}>

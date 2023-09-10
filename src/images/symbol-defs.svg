@@ -7,6 +7,9 @@
 <symbol id="icon-sign" viewBox="0 0 32 32">
 <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="5.3333" d="M10.667 5.333l13.2 10.667-13.2 10.667"></path>
 </symbol>
+<symbol id="icon-arrow-up" viewBox="0 0 32 32">
+<path d="M20 32v-16l6 6 6-6-16-16-16 16 6 6 6-6v16z"></path>
+</symbol>
 <symbol id="icon-arrow" viewBox="0 0 34 32">
 <path d="M25.588 15.206l-10.313 10.313-1.097-1.097 10.313-10.313h-10.313v-1.552h12.962v12.962h-1.552v-10.313z"></path>
 </symbol>

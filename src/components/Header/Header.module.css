@@ -15,6 +15,7 @@ header {
 .logoContainer {
     display: flex;
     align-items: center;
+    color: #fafafa;
 }
 
 .logoImage {
@@ -28,7 +29,6 @@ header {
 }
 
 .logoText {
-    color: #fafafa;
     font-size: 28px;
     font-weight: 600;
     letter-spacing: 0.05em;
@@ -43,20 +43,9 @@ header {
 .supportContainer {
     display: none;
 }
-/* 
-.navLink{
-    display: block;
-    height: 100%;
-    text-align: center;
-} */
-
-.mobileMenuButton {
-    border: none;
-}
 
 .mobileMenuIcon {
     fill: #fafafa;
-    transition: fill 150ms linear;
 }
 
 .mobileMenuIcon:hover,
@@ -108,10 +97,6 @@ header {
         font-size: 18px;
         letter-spacing: 0.03em;
         color: #fafafa;
-    }
-
-    .supportLink {
-        transition: color 150ms linear;
     }
 
     .supportLink:hover,

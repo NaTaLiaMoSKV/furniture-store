@@ -1,9 +1,3 @@
-.newsletter {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: #f2f2f2;
-}
-
 .newsletterContainer {
     display: flex;
     flex-direction: column;
@@ -56,17 +50,6 @@ form {
     border-radius: 50%;
 }
 
-.formButton {
-    color: #fafafa;
-    background-color: #8bbb97;
-    padding: 10px 15px;
-    font-size: 14px;
-    border-radius: 30px;
-    letter-spacing: 0.04em;
-    border: none;
-}
-
-
 @media screen and (min-width: 768px) {
     
     .titleText {
@@ -75,14 +58,8 @@ form {
     }
 }
 
-
 @media screen and (min-width: 1200px) {
-
-    .newsletter {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-
+    
     .formInput {
         padding: 15px 10px 15px 45px;
         font-size: 16px;
@@ -97,9 +74,5 @@ form {
         height: 20px;
         left: 8px;
         padding: 6px;
-    }
-    
-    .formButton {
-        padding: 13px 18px;
     }
 }

@@ -1,21 +1,10 @@
-.category {
-    padding-top: 40px;
-    padding-bottom: 60px;
-    background-color: #f2f2f2;
-}
-
 .categoryContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
-.titleText {
-    text-align: center;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    font-weight: 700;
-}
 .categories {
     width: 100%;
     display: block;
@@ -53,21 +42,18 @@
     right: 0;
     bottom: 50%;
     transform: translateY(50%);
-    border: none;
 }
 
 .galleryIcon {
     border-radius: 50%;
     padding-right: 4px;
     padding-bottom: 4px;
-    
     background-color: #e0dcdc;
-    transition: background-color 150ms linear;
 }
 
 .galleryButton:hover .galleryIcon,
 .galleryButton:focus .galleryIcon {
-    background-color: #fafafa;
+    background-color: #fff;
 }
 
 .office,
@@ -144,11 +130,6 @@
     .smallCategories {
         width: 340px;
     }
-    
-    .titleText {
-        width: 480px;
-        font-size: 32px;
-    }
 
     .office,
     .bedroom {
@@ -180,10 +161,6 @@
     .categories {
         justify-content: center;
         gap: 25px;
-    }
-
-    .titleText {
-        margin-bottom: 15px;
     }
 
     .smallCategories {

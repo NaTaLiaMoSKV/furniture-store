@@ -4,13 +4,11 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: #fafafa;
     z-index: 100;
-
     opacity: 0;
     visibility: hidden;
     transition: all 250ms linear;
@@ -19,7 +17,6 @@
 .mobileMenuContainer.hidden {
     opacity: 0;
     visibility: hidden;
-    transition: all 250ms linear;
 }
 
 .mobileMenuContainer.show {
@@ -47,13 +44,8 @@
     scroll-snap-type: none;
 }
 
-.mobileMenuButtonClose {
-    border: none;
-}
-
 .mobileMenuIconClose {
     fill: #282828;
-    transition: fill 150ms linear;
 }
 
 .mobileMenuIconClose:hover {
@@ -74,7 +66,6 @@
 .navItem:hover {
     color: #8bbb97;
 }
-
 
 @media screen and (min-width: 768px) {
 

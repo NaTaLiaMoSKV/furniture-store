@@ -31,7 +31,14 @@ export default function Hero() {
             name: 'Kitchen',
             count: 250,
         },
-    ];    
+    ];
+
+    const scrollTo = (id)=> {
+        const el = document.getElementById(id);
+        if (el) {
+            el.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
 
     const nextSlide = () => {
         const next = (currentSlide + 1) % images.length;
@@ -49,7 +56,7 @@ export default function Hero() {
     const isNextButtonDisabled = currentSlide === images.length - 1;
     
     return (
-        <div className={css.hero} id='home'>
+        <div className='gray-section' id='home'>
              <section>
                 <div className={css.heroContainer}>
                     <div className={css.heroDescriptionContainer}>
@@ -64,7 +71,7 @@ export default function Hero() {
 
                         <p className={css.heroSubtitle}>Delivering Comfort as a Priority: Quick and Easy Access to a Wide Variety of Furniture</p>
 
-                        <a className={css.heroShopLink} href='#shop'>Get Started</a>
+                        <p className={css.heroShopLink} onClick={() => scrollTo('shop')}>Get Started</p>
 
                         <ul className={css.statList}>
                             <li className={css.statItem}>

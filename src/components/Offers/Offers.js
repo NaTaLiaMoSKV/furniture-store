@@ -2,7 +2,7 @@ import css from './Offers.module.css'
 
 export default function Offers() {
     return (
-        <>
+        <div className={css.offers}>
             <img className={css.offerImage} src='https://i.pinimg.com/564x/0d/ac/2d/0dac2d70143cc5120c87353e00a69d22.jpg' alt='living room'></img>
             <section className={css.offersContainer}>
                 <div className={css.imagesContainer}>
@@ -16,11 +16,11 @@ export default function Offers() {
                         <p className='section-subtitle'>Offers</p>
                         <h2 className={css.offerTitle}>Get Upto 50% Offer On Festival Season!</h2>
                         <p className={css.offerText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor</p>
-                        <button className={css.offerButton} type='button'>Redeem Now</button>
+                        <button className={`${css.offerButton} buy-button`} type='button'>Redeem Now</button>
                     </div>
                 </div>
             </section>
-        </>
+        </div>
         
     )
 }

@@ -1,5 +1,4 @@
 import css from './MobileMenu.module.css'
-// import css from './Header.module.css'
 import logoDot from '../../images/dot.png'
 import headerCss from '../Header/Header.module.css'
 import logoImage from '../../images/logo.png'
@@ -38,12 +37,6 @@ export default function MobileMenu({ isMobileMenuOpened, onClose }) {
                         <li className={css.navItem} onClick={e => scrollTo(e, 'testimonial')}>Testimonial</li>
                         <li className={css.navItem} onClick={e => scrollTo(e, 'blog')}>Blog</li>
                         <li className={css.navItem} onClick={e => scrollTo(e, 'contacts')}>Contact Us</li>
-                        {/* <li className={css.navItem}><a className={css.navLink} href='#home'>Home</a></li>
-                        <li className={css.navItem}><a className={css.navLink} onClick={onClose} href='#about'>About</a></li>
-                        <li className={css.navItem}><a className={css.navLink} onClick={onClose} href='#shop'>Shop</a></li>
-                        <li className={css.navItem}><a className={css.navLink} onClick={onClose} href='#testimonial'>Testimonial</a></li>
-                        <li className={css.navItem}><a className={css.navLink} onClick={onClose} href='#blog'>Blog</a></li>
-                        <li className={css.navItem}><a className={css.navLink} onClick={onClose} href='#contact'>Contact Us</a></li> */}
                     </ul>
                 </section>
             )}
