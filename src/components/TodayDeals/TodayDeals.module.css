@@ -37,6 +37,15 @@
     padding: 15px 10px;
 }
 
+.itemOldPrice {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    color: #7a7a7a;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
 .galleryImage {
     width: 100%;
     height: auto;
@@ -166,12 +175,7 @@
     }
 
     .galleryItem {
-        position: relative;
         min-width: calc(50% - 40px);
-        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-        border: 1px solid #cbc9c9;
-        background-color: #fff;
-        border-radius: 10px;
         padding: 10px;
     }
 
@@ -205,6 +209,10 @@
 
     .galleryImage {
         max-height: 300px;
+    }
+
+    .itemOldPrice {
+        font-size: 18px;
     }
 }
 

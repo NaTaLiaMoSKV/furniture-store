@@ -53,9 +53,10 @@ export default function TodayDeals() {
                     {galleryItems && galleryItems.map((item) => (
                         <li key={item.id} className={css.galleryItem}>
                             <img className={shopCss.itemImage} src={item.img} alt={item.name}></img>
-                            <div className={shopCss.itemDescriptionWrapper}>
+                            <div className={shopCss.itemDescriptionWrapper} style={{position: 'relative'}}>
                                 <p className={shopCss.itemName}>{item.name}</p>
-                                <p className={shopCss.itemPrice}>₴ {item.price}.00</p>
+                                <p className={css.itemOldPrice}>₴ {item.price}.00</p>
+                                <p className={shopCss.itemPrice} style={{color: '#ff1a1a'}}>₴ {item.price - item.price / 10}.00</p>
                             </div>
                             <div className={css.itemRatingWrapper}>
                                 <svg className={shopCss.itemRatingIcon} width={20} height={20}>
