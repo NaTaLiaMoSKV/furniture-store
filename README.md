@@ -1,113 +1,76 @@
-# React homework template
+# Furniture Store Website
 
-Этот проект был создан при помощи
-[Create React App](https://github.com/facebook/create-react-app). Для знакомства
-и настройки дополнительных возможностей
-[обратись к документации](https://facebook.github.io/create-react-app/docs/getting-started).
+Welcome to the Furniture Store website, your ultimate destination for furniture and interior design solutions. This React-based website offers a user-friendly interface and an array of features to make your shopping experience enjoyable.
 
-## Создание репозитория по шаблону
+## Overview
+- This website is designed to help you explore and purchase furniture and interior design items effortlessly.
+- It includes several sections to cater to your needs.
 
-Используй этот репозиторий организации GoIT как шаблон для создания репозитория
-своего проекта. Для этого нажми на кнопку `«Use this template»` и выбери опцию
-`«Create a new repository»`, как показано на изображении.
+## Features
+1. **Navigation Bar**: An intuitive navigation bar allows you to easily switch between different sections of the website.
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
+2. **Benefits**: Discover the unique advantages of shopping with Furniture Store, from quality craftsmanship to exceptional customer service.
 
-На следующем шаге откроется страница создания нового репозитория. Заполни поле
-его имени, убедись что репозиторий публичный, после чего нажми кнопку
-`«Create repository from template»`.
+3. **Categories**: Explore a wide range of furniture and interior design products for various spaces:
+   - Kitchen
+   - Living Room
+   - Bedroom
+   - Office
 
-![Creating repo from a template step 2](./assets/template-step-2.png)
+4. **Best Seller Collection**: Browse our carefully curated collection of best-selling items known for their quality and style.
 
-После того как репозиторий будет создан, необходимо перейти в настройки
-созданного репозитория на вкладку `Settings` > `Actions` > `General` как
-показано на изображении.
+5. **Offers and Discounts**: Stay updated on our latest offers and discounts to enjoy great deals on your favorite products.
 
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
+6. **Today's Deals**: Don't miss out on our daily specials featuring popular discounted products, available for a limited time.
 
-Проскролив страницу до самого конца, в секции `«Workflow permissions»` выбери
-опцию `«Read and write permissions»` и поставь галочку в чекбоксе. Это
-необходимо для автоматизации процесса деплоя проекта.
+7. **Customer Testimonials**: Read what our satisfied customers have to say about their experiences with Furniture Store.
 
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
+8. **Blog**: Get inspired and informed with articles from our design experts, offering valuable tips, trends, and ideas.
 
-Теперь у тебя есть личный репозиторий проекта, со структурой файлов и папок
-репозитория-шаблона. Далее работай с ним как с любым другим личным репозиторием,
-клонируй его себе на компьютер, пиши код, делай коммиты и отправляй их на
-GitHub.
+9. **Frequently Asked Questions**: Find quick answers to common questions about our products and services.
 
-## Подготовка к работе
+10. **Newsletter Subscription**: Stay in the loop by subscribing to our newsletter for updates, exclusive offers, and design inspiration.
 
-1. Убедись что на компьютере установлена LTS-версия Node.js.
-   [Скачай и установи](https://nodejs.org/en/) её если необходимо.
-2. Установи базовые зависимости проекта командой `npm install`.
-3. Запусти режим разработки, выполнив команду `npm start`.
-4. Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
-   Эта страница будет автоматически перезагружаться после сохранения изменений в
-   файлах проекта.
+11. **Galleries**: Explore galleries showcasing our furniture and interior design concepts for inspiration.
 
-## Деплой
+## Installation
+To run this project locally, follow these steps:
 
-Продакшн версия проекта будет автоматически проходить линтинг, собираться и
-деплоиться на GitHub Pages, в ветку `gh-pages`, каждый раз когда обновляется
-ветка `main`. Например, после прямого пуша или принятого пул-реквеста. Для этого
-необходимо в файле `package.json` отредактировать поле `homepage`, заменив
-`your_username` и `your_repo_name` на свои, и отправить изменения на GitHub.
+1. Clone the repository:
+   ```
+   git clone https://github.com/NaTaLiaMoSKV/furniture-store.git
+   ```
 
-```json
-"homepage": "https://your_username.github.io/your_repo_name/"
-```
+2. Navigate to the project directory:
+   ```
+   cd furniture-store
+   ```
 
-Далее необходимо зайти в настройки GitHub-репозитория (`Settings` > `Pages`) и
-выставить раздачу продакшн версии файлов из папки `/root` ветки `gh-pages`, если
-это небыло сделано автоматически.
+3. Install dependencies:
+   ```
+   npm install
+   ```
 
-![GitHub Pages settings](./assets/repo-settings.png)
+4. Start the development server:
+   ```
+   npm start
+   ```
 
-### Статус деплоя
+5. Open your web browser and visit `http://localhost:3000` to view the website.
 
-Статус деплоя крайнего коммита отображается иконкой возле его идентификатора.
+## Technologies Used
+- React
+- JavaScript
+- HTML
+- CSS
 
-- **Желтый цвет** - выполняется сборка и деплой проекта.
-- **Зеленый цвет** - деплой завершился успешно.
-- **Красный цвет** - во время линтинга, сборки или деплоя произошла ошибка.
+## Contributing
+If you'd like to contribute to this project, please follow our [contribution guidelines](CONTRIBUTING.md).
 
-Более детальную информацию о статусе можно посмотреть кликнув по иконке, и в
-выпадающем окне перейти по ссылке `Details`.
+## License
+This project is licensed under the [MIT License](LICENSE).
 
-![Deployment status](./assets/deploy-status.png)
+## Contactы
+If you have any questions or suggestions about the project, please contact me at natashamoskv@gmail.com.
 
-### Живая страница
-
-Через какое-то время, обычно пару минут, живую страницу можно будет посмотреть
-по адресу указанному в отредактированном свойстве `homepage`. Например, вот
-ссылка на живую версию для этого репозитория
-[https://goitacademy.github.io/react-homework-template](https://goitacademy.github.io/react-homework-template).
-
-Если открывается пустая страница, убедись что во вкладке `Console` нет ошибок
-связанных с неправильными путями к CSS и JS файлам проекта (**404**). Скорее
-всего у тебя неправильное значение свойства `homepage` в файле `package.json`.
-
-### Маршрутизация
-
-Если приложение использует библиотеку `react-router-dom` для маршрутизации,
-необходимо дополнительно настроить компонент `<BrowserRouter>`, передав в пропе
-`basename` точное название твоего репозитория. Слеш в начале строки обязателен.
-
-```jsx
-<BrowserRouter basename="/your_repo_name">
-  <App />
-</BrowserRouter>
-```
-
-## Как это работает
-
-![How it works](./assets/how-it-works.png)
-
-1. После каждого пуша в ветку `main` GitHub-репозитория, запускается специальный
-   скрипт (GitHub Action) из файла `.github/workflows/deploy.yml`.
-2. Все файлы репозитория копируются на сервер, где проект инициализируется и
-   проходит линтинг и сборку перед деплоем.
-3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
-   отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
-   скрипта будет указано в чем проблема.
+Thank you for choosing Furniture Store for all your furniture and interior design needs. We hope you enjoy your shopping experience with us!
