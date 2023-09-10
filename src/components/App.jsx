@@ -18,13 +18,16 @@ import ScrollButton from "./ScrollButton/ScrollButton";
 
 export const App = () => {
     const [isMobileMenuOpened, setIsMobileMenuOpened] = useState(false);
+    const body = document.querySelector('body');
 
     const onOpenMobileMenuClick = e => {
         e.preventDefault();
+        body.classList.add('hidden');
         setIsMobileMenuOpened(true);
     };
 
     const onCloseMobileMenuClick = ()=> {
+        body.classList.remove('hidden');
         setIsMobileMenuOpened(false)
     };
 
